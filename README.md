@@ -1,6 +1,4 @@
-## **README descontraído para o seu projeto de Fenomenologia**
-
-###  **Mergulhando no mundo da Fenomenologia Hermenêutica!**
+###  **Mergulhando no mundo da Fenomenologia Hermenêutica! - Imersão Dev com Google Gemini**
 
 **O que é esse negócio?**
 
