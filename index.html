@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fenomenologia</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mapa Conceitual da Fenomenologia Hermenêutica</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do atleta" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
+                  <!--   <div class="item-resultado">
+                        <h2>
+                            <div class="imagem-e-texto">
+                                <img src="edmund_husserl.jpg" alt="Foto Edmund_Husserl">
+                            <a href="#" target="_blank">Edmund Husserl</a>
+                        </h2>
+                        <p class="descricao-meta">Fundador da fenomenologia, suas ideias influenciaram profundamente a psicologia fenomenológica.</p>
+                        <p class="Principais-conceitos">  Principais Conceitos:<br><br></p>
+                        <p class="subtitulo"></p>
+                        <p class="subtitulo">Intencionalidade:</p> Ato de consciência está sempre direcionado a algo; a consciência é sempre intencional.<br><br>
+                        <p class="subtitulo">Redução Fenomenológica:</p>Suspender julgamentos sobre a realidade externa para focar na experiência pura da consciência.<br><br>
+                        <p class="subtitulo">Essências:</p> Fenomenologia busca entender a essência das experiências ao descrever como elas aparecem na consciência.<br><br>
+                        <a href="https://pt.wikipedia.org/wiki/Edmund_Husserl" target="_blank">Clique aqui e saiba mais</a>
+                    </div>
+
+                    <div class="item-resultado">
+                        <h2>
+                            <div class="imagem-e-texto">
+                                <img src="martin_heidegger.jpg" alt="Foto Martin Heidegger">
+                                <a href="#" target="_blank">Martin Heidegger</a>
+                            </div>
+                        </h2>
+                        <p class="descricao-meta">Filósofo existencialista alemão, conhecido por sua obra "Ser e Tempo".</p>
+                        <p class="Principais-conceitos"> Principais Conceitos:<br><br></p>
+                        <p class="subtitulo">Ser-aí:</p> O ser humano como ser-no-mundo, lançado no mundo e sempre em relação a ele.<br><br>
+                        <p class="subtitulo">Tempo:</p> A temporalidade como constitutiva da existência humana.<br><br>
+                        <p class="subtitulo">Angústia:</p> A experiência fundamental da finitude e da possibilidade da não-autenticidade.<br><br>
+                        <a href="https://pt.wikipedia.org/wiki/Martin_Heidegger" target="_blank">Clique aqui e saiba mais</a>
+                    </div>
+
+                    <div class="item-resultado">
+                        <h2>
+                            <div class="imagem-e-texto">
+                                <img src="maurice_merleau_ponty.jpg" alt="Foto Maurice Merleau-Ponty">
+                                <a href="#" target="_blank">Maurice Merleau-Ponty</a>
+                            </div>
+                        </h2>
+                        <p class="descricao-meta">Filósofo francês, conhecido por sua fenomenologia da percepção.</p>
+                        <p class="Principais-conceitos"> Principais Conceitos:<br><br></p>
+                        <p class="subtitulo">Corpo:</p>O corpo como sujeito e objeto da experiência, como meio de relação com o mundo.<br><br>
+                        <p class="subtitulo">Percepção:</p> A percepção como uma experiência ativa e intencional, não como uma mera recepção de dados sensoriais.<br><br>
+                        <a href="https://pt.wikipedia.org/wiki/Maurice_Merleau-Ponty" target="_blank">Clique aqui e saiba mais</a>
+                    </div>
+
+                    <div class="item-resultado">
+                        <h2>
+                            <div class="imagem-e-texto">
+                                <img src="jean_paul_sartre.jpg" alt="Foto Jean-Paul Sartre">
+                                <a href="#" target="_blank">Jean-Paul Sartre</a>
+                            </div>
+                        </h2>
+                        <p class="descricao-meta">Filósofo existencialista francês, dramaturgo e romancista, conhecido por sua obra "O Ser e o Nada".</p>
+                        <p class="Principais-conceitos"> Principais Conceitos:<br><br></p>
+                        <p class="subtitulo">Existência precede a essência:</p> O ser humano não possui uma natureza pré-definida, mas se define através de suas escolhas.<br><br>
+                        <p class="subtitulo">Má fé:</p> A negação da liberdade, a tentativa de fugir da responsabilidade pelas próprias escolhas.<br><br>
+                        <p class="subtitulo">Olhar do outro:</p> A influência do olhar alheio na construção da identidade.<br><br>
+                        <a href="https://pt.wikipedia.org/wiki/Jean-Paul_Sartre" target="_blank">Clique aqui e saiba mais</a>
+                    </div>
+
+                    <div class="item-resultado">
+                        <h2>
+                            <div class="imagem-e-texto">
+                                <img src="karl_jaspers.jpg" alt="Foto Karl Jaspers">
+                                <a href="#" target="_blank">Karl Jaspers</a>
+                            </div>
+                        </h2>
+                        <p class="descricao-meta">Filósofo existencialista alemão, psiquiatra e filósofo da religião.</p>
+                        <p class="Principais-conceitos"> Principais Conceitos:<br><br></p>
+                        <p class="subtitulo">Situação-limite:</p> Experiências existenciais que revelam a finitude e a transcendência humana (morte, culpa, sofrimento).<br><br>
+                        <p class="subtitulo">Razão transcendente:</p> Uma razão que ultrapassa os limites da razão instrumental e busca o sentido da existência.<br><br>
+                        <p class="subtitulo">Consciência de si:</p> A capacidade humana de tomar consciência de si mesma e de sua liberdade.<br><br>
+                        <a href="https://pt.wikipedia.org/wiki/Karl_Jaspers" target="_blank">Clique aqui e saiba mais</a>
+                    </div>
+
+                    <div class="item-resultado">
+                        <h2>
+                            <div class="imagem-e-texto">
+                                <img src="ludwig_binswanger.jpg" alt="Foto Ludwig Binswanger">
+                                <a href="#" target="_blank">Ludwig Binswanger</a>
+                            </div>
+                        </h2>
+                        <p class="descricao-meta">Psiquiatra suíço e um dos fundadores da psicoterapia existencial.</p>
+                        <p class="Principais-conceitos"> Principais Conceitos:<br><br></p>
+                        <p class="subtitulo">Mundo do paciente:</p> A importância de compreender o mundo subjetivo do paciente para tratar doenças mentais.<br><br>
+                        <p class="subtitulo">Existência autêntica:</p> A busca por uma vida significativa e autêntica, em oposição a uma existência alienada.<br><br>
+                        <p class="subtitulo">Relação médico-paciente:</p> A importância de uma relação terapêutica baseada na compreensão e empatia.<br><br>
+                        <a href="https://en.wikipedia.org/wiki/Ludwig_Binswanger" target="_blank">Clique aqui e saiba mais</a>
+                    </div>
+ -->
+
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Mapa Conceitual da Fenomenologia Hermenêutica. Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: mariana.abuquerque@fenomenologia.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
